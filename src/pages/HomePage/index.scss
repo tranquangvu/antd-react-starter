@@ -1,0 +1,39 @@
+.home-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+
+  .container {
+    width: 900px;
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  .logo {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .intro {
+    &__title {
+      text-align: center;
+      margin-bottom: 16px;
+    }
+
+    &__description {
+      text-align: center;
+      margin-bottom: 16px;
+    }
+
+    &__actions {
+      margin: 16px 0;
+      text-align: center;
+
+      button:not(:last-child) {
+        margin-right: 16px;
+      }
+    }
+  }
+}
